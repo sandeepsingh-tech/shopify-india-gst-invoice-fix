@@ -1,6 +1,8 @@
 # Fixing Shopify India GST Inversion: Step-by-Step Guide for Store Owners
 
-If you run an Indian Shopify store, chances are you’ve printed an invoice using Order Printer only to find a bizarre tax breakdown: a customer in your home state was charged **IGST**, while an out-of-state customer received an intrastate split of **CGST + SGST**.
+If you run an Indian Shopify store, chances are you’ve printed an invoice using Order Printer only to find a bizarre tax breakdown: a customer in your home state was charged IGST, while an out-of-state customer received an intrastate split of CGST + SGST.
+
+> **Note on Tax Slabs:** This guide is specifically designed for stores operating with a **flat 18% GST** across their catalog. If your store sells products across **mixed GST slabs** (such as 5% on wooden toys/handicrafts or value-based apparel where items ≤ ₹1,000 are taxed at 5% and items > ₹1,000 are taxed at 12%), please refer to the advanced multi-rate guide and template in this repository: [shopify-india-multislab-gst](https://github.com/sandeepsingh-tech/shopify-india-multislab-gst).
 
 Here is how this happens, why Shopify behaves this way, and how to fix it across your admin settings and Order Printer templates.
 
